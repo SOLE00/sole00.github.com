@@ -1,0 +1,138 @@
+*{
+	border: 0px;
+	padding: 0px;
+}
+.bg{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("Images/Picsart_22-03-21_23-45-49-799.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main{
+	font-family: Castellar;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	text-shadow: 2px 2px rgb(117, 117, 117);
+	text-align: left;
+	padding-top: 50px;
+}
+.row{
+	margin-top: 10%;
+	padding-left: 8%;
+	display: flex;
+	justify-content: center;
+}
+.column{
+	flex-basis: 23%;
+	position: relative;
+	overflow: hidden;
+	justify-content: center;
+	
+}
+.column :hover{
+	background: rgba(0, 200, 0, 0.8);
+	text-shadow: 1px 1px gray;
+	transition: 0.5s;
+	border-radius: 5px;
+	opacity: 1;
+}
+.ctg{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/2256827_rusyjy.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.dhk{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/Feature-Photo-7.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.syl{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/IMG_20210917_121533-01.jpeg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.khl{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/sundarban-day-2002140623.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.raj{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/rajshahi_road_side_tree.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.bar{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/Barisal-Backwater-Tour.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.ran{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(Images/Tazhat_Rangpur.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 250px;
+	border-radius: 5px;
+}
+h1{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30%;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+#heading{
+	background-color: aliceblue;
+	margin-top: -50px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.nav{
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+	padding-right: 20px;
+	font-weight: 200;
+	font-size: medium;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: none;
+}
+ul li{
+	display: inline;
+}
+ul li a{
+	
+	text-decoration: none;
+	color: red;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	border-radius: 25px;
+	
+}
+ul li a:hover{
+	background-color: green;
+	color: white;
+	transition: 0.8s;
+}
+

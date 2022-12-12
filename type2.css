@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg-tang, .bg-guava,.bg-kuakata,.bg-ahsan,.bg-lal,.bg-zoo,.bg-rajbari, .bg-puthia, .bg-uttara, .bg-sajek, .bg-cox, .bg-sree, .bg-jaflong, .bg-saint, .bg-lalon, .bg-taj, .bg-sundarb, .bg-noy{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bg-tang{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Tanguar-Haor.jpg");
+	height: 150vh;
+}
+.bg-guava{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/4025143_Floating_market_Barisal_Bangladesh.jpg");
+	height: 140vh;
+}
+.bg-kuakata{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/tourist-place-of-Bangladesh.jpg");
+	height: 145vh;
+}
+.bg-ahsan{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/100b1f000001gsmae5973_C_750_420.jpg");
+	height: 120vh;
+}
+.bg-lal{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Lalbager-Fort.jpg");
+	height: 125vh;
+}
+.bg-zoo{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Bangladesh_national_zoo.jpg");
+	height: 125vh;
+}
+.bg-rajbari{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Rani_Vabani_Rajbari.jpg");
+	height: 120vh;
+}
+.bg-puthia{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Bhubaneshwar-Shiva-Temple-P.jpg");
+	height: 120vh;	
+}
+.bg-uttara{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Uttara_Ganabhaban_gat-Porag61.jpg");
+	height: 120vh;
+}
+.bg-sajek{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/bangladesh-4690975__480.jpg");
+	height: 140vh;	
+}
+.bg-cox{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/longest-sea-beach-in.jpg");
+	height: 140vh;	
+}
+.bg-sree{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Sreemangal-2.jpg");
+	height: 145vh;
+}
+.bg-jaflong{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/jaflong-ultimate-travelers-guide-e1615265613510.jpg");
+	height: 135vh;
+}
+.bg-saint{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/IMG_20220105_123117-01.jpeg");
+	height: 150vh;
+}
+.bg-lalon{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/maxresdefault (1).jpg");
+	height: 120vh;	
+}
+.bg-taj{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/thumb-1920-555709.jpg");
+	height: 120vh;	
+}
+.bg-sundarb{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/bangladesh-6210118.jpg");
+	height: 120vh;	
+}
+.bg-noy{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Laldighi-_nine-dome-Mosque_Mosjid.info_.jpg");
+	height: 120vh;
+}
+h1{
+	font-family: Castellar;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px white;
+	
+}
+.main{
+	padding: 15px 10px;
+	display: flex;
+}
+.desc1 , .desc2{
+	font-family: Cambria;
+	font-size: 17px;
+	font-weight: 500px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	margin-right: 5%;
+	flex-basis: 70%;
+}
+.main iframe{
+	position: relative;
+	margin-right: 40px;
+}
+.photos img{
+	height: 10%;
+	width: 15%;
+	padding-left: 1%;
+	margin-top: 10px;
+}
+u{
+	color: darkgreen;
+}

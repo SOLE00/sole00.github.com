@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Picsart_22-03-25_16-05-32-856.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 120vh;
+}
+.bg h1{
+	font-family: Castellar;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px black;
+	
+}
+.main{
+	padding: 2px 10px;
+	display: flex;
+}
+.desc1, .desc2{
+	font-family: Cambria;
+	font-size: 17px;
+	font-weight: 500px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	margin-right: 5%;
+	flex-basis: 70%;
+}
+
+.main iframe{
+	position: relative;
+	margin-right: 30px;
+} 
+u{
+	color: red;
+	text-shadow: 0.5px 0.5px black;
+}
+.desc2 ul{
+	padding-left: 15%;
+
+}
+.desc2 ul li{
+	display: inline;
+}
+.desc2 ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Castellar;
+}
+.desc2 ul li a:hover{
+	background-color: green;
+	color: white;
+}

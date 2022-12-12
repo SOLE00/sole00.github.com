@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg-tang{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/Tanguar-Haor.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150vh;
+}
+.bg-tang h1{
+	font-family: Castellar;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px white;
+	
+}
+.main{
+	padding: 15px 10px;
+	display: flex;
+}
+.desc1 , .desc2{
+	font-family: Cambria;
+	font-size: 17px;
+	font-weight: 500px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	margin-right: 5%;
+	flex-basis: 70%;
+}
+.main iframe{
+	position: relative;
+	margin-right: 40px;
+}
+.photos img{
+	height: 10%;
+	width: 15%;
+	padding-left: 7%;
+	margin-top: 30px;
+}
+u{
+	color: darkgreen;
+}

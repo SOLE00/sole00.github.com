@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("Images/y8eC0WBzPEEVyKIGGjcM3zKIgirEYLTLvioF3GaP.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 180vh;
+}
+.bg h1{
+	font-family: Castellar;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px white;
+	
+}
+.main{
+	padding: 15px 10px;
+	display: flex;
+}
+.desc1, .desc2, .desc3{
+	font-family: Cambria;
+	font-size: 17px;
+	font-weight: 500px;
+	color: black;
+	text-shadow: 1px 1px gray;
+	margin-right: 5%;
+	flex-basis: 70%;
+}
+
+.main iframe{
+	position: relative;
+	margin-right: 40px;
+}
+.photos img{
+	height: 5%;
+	width: 10%;
+	padding-left: 80px;
+}
+u{
+	color: green;
+}
